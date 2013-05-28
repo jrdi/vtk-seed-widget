@@ -27,7 +27,7 @@ int main( int argc, char *argv[] )
   if( argc != 3 )
     {
     std::cerr << "Usage:" << std::endl;
-    std::cerr << argv[0] << " <Image (*.jpg)> <output filename (*.txt)> (<-Scale|-Shift>)" << std::endl;
+    std::cerr << argv[0] << " <Image (*.jpg)> <output filename (*.txt)>" << std::endl;
 
     return EXIT_FAILURE;
     }
