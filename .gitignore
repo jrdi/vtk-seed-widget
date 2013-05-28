@@ -1,0 +1,29 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# back up files
+*~
+*.bak
+
+# conflict files
+*.orig
+
+*CMakeLists.txt.user*
+*.swp
+
+# Build directory
+build
+
+# Mac OSX
+.DS_Store
+
