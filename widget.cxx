@@ -75,7 +75,7 @@ int main( int argc, char *argv[] )
   for( int i = 0; i < N; i++ )
     {
       double pos[3];
-      seedRep->GetSeedDisplayPosition( i, pos );
+      seedRep->GetSeedWorldPosition( i, pos );
       ofs << pos[0] << " " << imageBounds[3] - pos[1] << std::endl;
     }
   ofs.close();
